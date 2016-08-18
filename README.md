@@ -2,7 +2,7 @@
 * forked from shawncxc/py_crawler
 
 
-I do some modifications on crawler.py. Regardless the syntax between Python 2.x and Python 3.x, the main change are below:
+I do some modifications on crawler.py. Regardless the syntax between Python 2.x and Python 3.x, the main changes are below:
 
 1. Added a exception handling of URLError
 2. Deleted some redundant rows, like simplifying the data fetching using urllib module.

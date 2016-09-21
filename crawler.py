@@ -8,7 +8,8 @@ from urllib.error import URLError
 from bs4 import BeautifulSoup
 
 # Read the html text
-url = 'http://www.pokemoncenter.com/apparel/t-shirts#facet:&productBeginIndex:0&facetLimit:&orderBy:5&pageView:grid&minPrice:&maxPrice:&pageSize:&'
+url = ('http://www.pokemoncenter.com/apparel/t-shirts#facet:&productBeginIndex:0&facetLimit' +
+':&orderBy:5&pageView:grid&minPrice:&maxPrice:&pageSize:&')
 
 # Exception handling of URLError
 try:
